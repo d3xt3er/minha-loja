@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F3F3;
+}
+
+.title {
+    font-size: 36px;
+    color: #676767;
+}
+
+section .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #499AC8;
+    clip-path: circle(70% at right center);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 150px;
+}
+
+header .navigation {
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+
+header .navigation li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+h2 {
+    margin: 1px 9px 478px;
+    color: #3c3c3c;
+}
+
+#form {
+    background: rgb(142 142 142 / 43%);
+    position: fixed;
+    display: grid;
+    margin: 52px 91px 92px 6px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+#form input {
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#email::placeholder {
+    color: rgb(168, 168, 168);
+    margin: 10px 10px 40px 10px;
+    opacity: 1;
+}
+
+label {
+    padding: 7px 10px 13px 4px;
+    color: #3c3c3c;
+}
+
+.btnSend {
+    margin: 10px 0px;
+    cursor: pointer;
+    padding: 5px;
+    color: #3c3c3c;
+    background: #499AC8;
+}
+
+.btnSend:hover {
+    transition: 0.5s;
+    background: #6cc1f1;
+}
+
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.sci {
+    position: absolute;
+    bottom: 16px;
+    left: 94px;
+    display: flex;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin-left: 15px;
+    background: #363636;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+
+.sci li a:hover {
+    background: #59C3FF;
+}
+
+.sci li a img {
+    transform: scale(0.5);
+}
+
+.like {
+    display: block;
+    margin-left: auto;
+    z-index: 1;
+}
+
+.anime {
+    border-radius: 25%;
+}
